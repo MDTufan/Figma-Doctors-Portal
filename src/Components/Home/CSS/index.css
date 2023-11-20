@@ -1,0 +1,87 @@
+.xx{
+    font-size: 12px;
+    
+}
+.nav-link{
+    color: black !important;
+}
+
+.bg-img{
+    background-image: url("../../../assets/images/landing-bg.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.bgcolor{
+    background: linear-gradient(90deg, #19D3AE -38.67%, #0FCFEC 129.78%);
+}
+.bgurl{
+    background-image: url("../../../assets/images/bg-blue.png");
+    background-position: center;
+    background-size: cover;
+   
+}
+.contactimg{
+    background-image: url("../../../assets/images/bg-blue.png");
+    background-position: center;
+    background-size: cover;
+}
+.img-footer{
+    background-image: url("../../../assets/images/footer-bg.png");
+    background-position: center;
+    background-size: cover;
+}
+.cc{
+    width:  400px !important;
+   margin-top: -40px;
+}
+h1,h2,h3,h4,h5,h6 {
+    color: #3A4256;
+}
+.pp{
+    color: #3A4256;
+}
+.img{
+    width: 40px;
+}
+.img-1{
+    width: 300px !important;
+    
+    
+   
+}
+
+.contact{
+    width: 35%;
+    margin: auto;
+}
+.w-full{
+    width: 100%;
+    background-color: #3A4256;
+    text-transform: uppercase;
+}
+.w-full:hover{
+    background: linear-gradient(90deg, #19D3AE -38.67%, #0FCFEC 129.78%);
+}
+
+.ber{
+    width: 120px ;
+    border-bottom: 4px solid #3A4256;
+    margin-bottom: 10px;
+    margin: auto;
+}
+.or{
+    color: #3A4256;
+  
+}
+
+.btn-google{
+    width: 100%;
+    background-color: transparent;
+    border: 2px solid #3A4256;
+   
+    
+}
+.btn-google:hover{
+    background: linear-gradient(90deg, #19D3AE -38.67%, #0FCFEC 129.78%);
+}

@@ -17,21 +17,21 @@ const Cardinfo = () => {
                                     <img className='img-fluid mt-3' src={clock} alt="" />
                                 </div>
                                 <div className="px-3">
-                                   <h5>Opening Hours</h5>
-                                   <p>Lorem Ipsum is simply dummy text of the pri</p>
+                                   <h5 className='text-white'>Opening Hours</h5>
+                                   <p className='text-white'>Lorem Ipsum is simply dummy text of the pri</p>
                                 </div>
                               </div>
                              
                             </div>
                             <div class="col-12  col-md-6 col-lg-4 " >
 
-                            <div class="bgcolor rounded d-flex  p-3 " >
+                            <div class="bgcolor2 rounded d-flex  p-3 " >
                                 <div className="">
                                     <img className='img-fluid mt-3' src={location} alt="" />
                                 </div>
                                 <div className="px-3">
-                                   <h5>Opening Hours</h5>
-                                   <p>Lorem Ipsum is simply dummy text of the pri</p>
+                                   <h5 className='text-white'>Opening Hours</h5>
+                                   <p className='text-white'>Lorem Ipsum is simply dummy text of the pri</p>
                                 </div>
                               </div>
                              
@@ -43,8 +43,8 @@ const Cardinfo = () => {
                                     <img className='img-fluid mt-3' src={phone} alt="" />
                                 </div>
                                 <div className="px-3">
-                                   <h5>Opening Hours</h5>
-                                   <p className=''>Lorem Ipsum is simply dummy text of the pri</p>
+                                   <h5 className='text-white'>Opening Hours</h5>
+                                   <p className='text-white'>Lorem Ipsum is simply dummy text of the pri</p>
                                 </div>
                               </div>
                              

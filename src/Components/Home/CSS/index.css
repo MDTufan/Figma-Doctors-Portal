@@ -1,6 +1,17 @@
+.text-color{
+    color: #19D3AE;
+    font-weight: bolder;
+}
 .xx{
     font-size: 12px;
     
+}
+.Car{
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr) !important;
+    gap:20px !important;
+    
+   
 }
 .nav-link{
     color: black !important;
@@ -20,6 +31,9 @@
 
 .bgcolor2{
     background-color: #3A4256;
+}
+.btn-close{
+    color: white !important;
 }
 .bgurl{
     background-image: url("../../../assets/images/bg-blue.png");
@@ -90,4 +104,14 @@ h1,h2,h3,h4,h5,h6 {
 }
 .btn-google:hover{
     background: linear-gradient(90deg, #19D3AE -38.67%, #0FCFEC 129.78%);
+}
+
+@media only screen and (max-width: 600px) {
+    .Car{
+        display: grid !important;
+        grid-template-columns: repeat(1, 1fr) !important;
+        gap:10px !important;
+        align-items: center;
+       
+    }
 }

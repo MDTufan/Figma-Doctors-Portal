@@ -1,5 +1,6 @@
-import { useEffect, useState } from "react";
+import { useEffect} from "react";
 import { format } from 'date-fns';
+import "../../Home/CSS/index.css"
 
 
 const Dateappiment = ({appointment,setAppointment,settrethment,trethment,selected}) => {
@@ -20,23 +21,28 @@ const Dateappiment = ({appointment,setAppointment,settrethment,trethment,selecte
         })
     },[])
   return (
-    <div>
-      <div className="container">
-        <div className="row d-flex">
-            <div className="col-4">
+    <div className="container mb-5">
+      <div className=" ">
+      
+        <div className="">
+            <div className="  d-flex Car text-center    ">
             {
                 appointment.map((opation1) => (
-                   <div className="">
-                        <p>{opation1.name}</p>
-                   <p>{opation1.slots[0]
+                   <div className="mt-5 shadow-lg p-4 rounded">
+                        <h6 className="text-color">{opation1.name}</h6>
+                   <p className="pp">{opation1.slots[0]
+                   
                    }</p>
+                   <p className="pp">16 SPACES AVAILABLE</p>
+                   
+                  
                   
                   
                    {
-                    trethment && <div className="">
+                    trethment && <div className="p-3 ">
                                             
-                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" onClick={()=>settrethment(opation1)}>
-                      Launch demo modal
+                    <button type="button" className="btn btn-primary bgcolor" data-bs-toggle="modal" data-bs-target="#exampleModal" onClick={()=>settrethment(opation1)}>
+                    GET STARTED
                     </button>
 
 
@@ -45,7 +51,7 @@ const Dateappiment = ({appointment,setAppointment,settrethment,trethment,selecte
                         <div class="modal-content">
                           <div class="d-flex justify-content-between p-3">
                             <h5 class="modal-title" id="exampleModalLabel">{name}</h5>
-                            <button type="button" class="btn-close  bg-info" data-bs-dismiss="modal" aria-label="Close"></button>
+                            <button type="button" class="btn-close  bgcolor2 rounded-circle p-2 " data-bs-dismiss="modal" aria-label="Close"></button>
                           </div>
                           <div class="modal-body">
                           <form>

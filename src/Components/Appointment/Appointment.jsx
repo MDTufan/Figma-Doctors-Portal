@@ -1,9 +1,19 @@
-import React from 'react';
+import React, {  useState } from 'react';
+import Mainappinment from './Mainappinment/Mainappinment';
+import Dateappiment from './DateAppioment/Dateappiment';
+
 
 const Appointment = () => {
+  const [selected, setSelected] = useState(new Date());
+  const [appointment, setAppointment] = useState([]);
+  const [trethment, settrethment] = useState([]);
+ 
+ 
   return (
     <div>
-      <h1>appointment</h1>
+      <Mainappinment selected={selected} setSelected={setSelected}/>
+      <Dateappiment selected={selected} trethment={trethment} settrethment={settrethment} appointment={appointment}  setAppointment={setAppointment} />
+      
     </div>
   );
 }

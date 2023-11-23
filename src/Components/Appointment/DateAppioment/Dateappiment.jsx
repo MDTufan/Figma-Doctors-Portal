@@ -71,17 +71,7 @@ const Dateappiment = ({appointment,setAppointment,settrethment,trethment,selecte
                               </select>
                           
                         </div>
-                        <div class="mb-3">
-                          
-                          
-                        <select class="form-select" aria-label="Default select example">
-                          
-                        </select>
-                                                        
-                             
-                          
-                          
-                        </div>
+                        
                         <div class="mb-3">
                           <label for="exampleInputEmail1" class="form-label">Email address</label>
                           <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"/>

@@ -5,6 +5,10 @@ import Home from '../Home/Home';
 import Appointment from '../Appointment/Appointment';
 import Login from '../Login/Login';
 import SignUp from '../Singup/SignUp';
+import Deshboard from '../Deshboard/Deshboard';
+import NotFound from '../404/NotFound';
+import PrivoteRoute from '../PrivoteRoute/PrivoteRoute';
+import MyAppoinment from '../MyAppmm/MyAppoinment';
 
 const Router = () => {
     const router=createBrowserRouter([
@@ -29,19 +33,26 @@ const Router = () => {
               path:'/signup',
               element:<SignUp />
             },
-            //  {
-            //   path:'/signup',
-            //   element:<SignUp />
-            // },
-            //  {
-            //   path:'/login',
-            //   element:<LogIn />
-            // },
+             
+             {
+              path:'*',
+              element:<NotFound />
+            },
            
            
            
           ]
-        }
+        },
+        {
+          path:'/dashboard',
+          element:<PrivoteRoute> <Deshboard /> </PrivoteRoute>,
+          children:[
+            {
+              path:'/dashboard',
+              element:<MyAppoinment />
+            }
+        ]
+        },
       ])
   return (
     <div>
